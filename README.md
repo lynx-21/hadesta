@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.ibb.co/bsMxGrm/logo-hadesta.png" alt="logo-hadesta" border="0"></p>
+<p align="center"><img src="https://i.ibb.co/bsMxGrm/logo-hadesta.png" alt="logo-hadesta" width="250"></p>
 
 
 ## About
