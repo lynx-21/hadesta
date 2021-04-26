@@ -21,7 +21,6 @@ trait Dispatchable
      * Dispatch the job with the given arguments if the given truth test passes.
      *
      * @param  bool  $boolean
-     * @param  mixed  ...$arguments
      * @return \Illuminate\Foundation\Bus\PendingDispatch|\Illuminate\Support\Fluent
      */
     public static function dispatchIf($boolean, ...$arguments)
@@ -35,7 +34,6 @@ trait Dispatchable
      * Dispatch the job with the given arguments unless the given truth test passes.
      *
      * @param  bool  $boolean
-     * @param  mixed  ...$arguments
      * @return \Illuminate\Foundation\Bus\PendingDispatch|\Illuminate\Support\Fluent
      */
     public static function dispatchUnless($boolean, ...$arguments)
@@ -48,21 +46,7 @@ trait Dispatchable
     /**
      * Dispatch a command to its appropriate handler in the current process.
      *
-     * Queueable jobs will be dispatched to the "sync" queue.
-     *
      * @return mixed
-     */
-    public static function dispatchSync()
-    {
-        return app(Dispatcher::class)->dispatchSync(new static(...func_get_args()));
-    }
-
-    /**
-     * Dispatch a command to its appropriate handler in the current process.
-     *
-     * @return mixed
-     *
-     * @deprecated Will be removed in a future Laravel version.
      */
     public static function dispatchNow()
     {

@@ -1,0 +1,202 @@
+/* mobile version */
+
+/* HALAMAN SATU */
+/* INDEX ATAU HOMEPAGE */
+
+.card-color {
+  border: none;
+}
+.error{
+  width:40%;
+  height: auto;
+  position: absolute;
+}
+.kotak-error{
+  width: auto;
+  height: 40%;
+
+}
+.posisi-404{
+  margin-top: -4.5vw;
+}
+.error h3{
+  font-size: 5vw;
+  font-weight: lighter;
+}
+.error h1{
+  font-size: 13vw;
+  font-weight: bolder;
+}
+.button-posisi{
+  font-size: 2vw;
+  position: absolute;
+  left: 40vw;
+  top: 37vw;
+  margin: 0;
+}
+
+.image-hover:hover {
+  max-width: 120%;
+}
+
+/* ukuran logo hadesta */
+.sizing-logo {
+  margin-top: 90px;
+  max-width: 50%;
+  margin-bottom: 50px;
+}
+
+/* jarak pada navbar ke logo */
+.navbar {
+  margin-bottom: 50px;
+  border-bottom: 1px solid white;
+}
+
+/* content */
+.sizingicon {
+  max-width: 30%;
+  margin-left: 30px;
+}
+.kotak {
+  color: rgb(255, 255, 255);
+  width: auto;
+  height: auto;
+  background-image: url(img/cerah.png);
+}
+.kotak h1 {
+  font-family: "Raleway", sans-serif;
+  color: rgb(207, 214, 226);
+  font-weight: bold;
+  font-size: 55px;
+}
+.kotak h3,
+p {
+  font-family: "Poppins", sans-serif;
+  line-height: 35px;
+}
+.kotak h3 span {
+  color: rgb(252, 161, 101);
+}
+
+/* content 2 */
+.kondua {
+  background-color: white;
+}
+.kondua a {
+  color: rgb(26, 26, 26);
+  text-decoration: none;
+}
+.kondua .hover-card:hover {
+  transform: scale(1.05);
+  transition-duration: 0.2s;
+}
+
+/* content 3 */
+.kontiga {
+  background: rgb(228, 228, 255);
+  background: linear-gradient(0deg, rgba(228, 228, 255, 1) 0%, rgba(244, 248, 255, 1) 21%, rgba(255, 255, 255, 1) 51%, rgba(255, 249, 246, 1) 80%, rgba(255, 246, 240, 1) 100%);
+}
+.kontiga h5,
+p {
+  line-height: 23px;
+}
+
+/* posisi pada pop up window */
+.pop-up-position {
+  transform: translateY(20%) !important;
+}
+
+/* rectangle photo profile */
+.profile {
+  position: relative;
+  max-width: 33px;
+  max-height: 33px;
+  border-radius: 50%;
+}
+
+.gradiasi-warna {
+  background: linear-gradient(to bottom, #373b44, #4286f4);
+}
+
+.font-color {
+  color: rgb(226, 160, 62);
+}
+.floating-box {
+  width: 60%;
+  height: 500px;
+  background-color: #fbfbfb;
+  position: relative;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 100px black;
+  overflow: hidden;
+  transform: translateY(10%);
+}
+.register-martop {
+  margin-top: 100px;
+}
+.register-marbot {
+  margin-bottom: 200px;
+}
+
+/* PC version */
+@media (min-width: 992px) {
+  /* border coral pada navbar */
+  .navkotak {
+    border-left: 6px solid coral;
+    width: auto;
+    height: auto;
+    padding-left: 20px;
+  }
+
+  /* border bottom hover navbar */
+  .navbar a:hover {
+    width: auto;
+    height: auto;
+    border-bottom: 4px solid coral;
+    margin-bottom: -4px;
+  }
+
+  /* circle qna */
+  .circle-qna {
+    width: 35px;
+    height: 35px;
+    background-color: coral;
+    border-radius: 50%;
+  }
+
+}
+/* Jika kurang resposive */
+@media (min-width: 768px) {
+
+  .motion{
+    background-image: url(img/motion.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: -50%;
+  }
+
+ }
+
+/* HALAMAN 2 */
+/* HALAMAN REGISTER */
+
+.bodi {
+  background-image: url(img/gplaypattern.png);
+}
+.registrasi {
+  background-color: white;
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.judul h1 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(69, 69, 73);
+}
+
+/* error page */
+
+
+
